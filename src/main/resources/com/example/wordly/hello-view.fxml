@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+
+<?import javafx.scene.control.Button?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.wordly.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <!-- Fila 1: PANEL -->
+    <HBox alignment="CENTER" spacing="5.0">
+        <Button fx:id="mostrarBoton00" text=" " />
+        <Button fx:id="mostrarBoton01" text=" " />
+        <Button fx:id="mostrarBoton02" text=" " />
+        <Button fx:id="mostrarBoton03" text=" " />
+        <Button fx:id="mostrarBoton04" text=" " />
+    </HBox>
+
+    <!-- Fila 2: PANEL -->
+    <HBox alignment="CENTER" spacing="5.0">
+        <Button fx:id="mostrarBoton05" text=" " />
+        <Button fx:id="mostrarBoton06" text=" " />
+        <Button fx:id="mostrarBoton07" text=" " />
+        <Button fx:id="mostrarBoton08" text=" " />
+        <Button fx:id="mostrarBoton09" text=" " />
+    </HBox>
+
+    <!-- Fila 3: PANEL -->
+    <HBox alignment="CENTER" spacing="5.0">
+        <Button fx:id="mostrarBoton10" text=" " />
+        <Button fx:id="mostrarBoton11" text=" " />
+        <Button fx:id="mostrarBoton12" text=" " />
+        <Button fx:id="mostrarBoton13" text=" " />
+        <Button fx:id="mostrarBoton14" text=" " />
+    </HBox>
+
+    <!-- Fila 4: PANEL -->
+    <HBox alignment="CENTER" spacing="5.0">
+        <Button fx:id="mostrarBoton15" text=" " />
+        <Button fx:id="mostrarBoton16" text=" " />
+        <Button fx:id="mostrarBoton17" text=" " />
+        <Button fx:id="mostrarBoton18" text=" " />
+        <Button fx:id="mostrarBoton19" text=" " />
+    </HBox>
+
+    <!-- Fila 5: PANEL -->
+    <HBox alignment="CENTER" spacing="5.0">
+        <Button fx:id="mostrarBoton20" text=" " />
+        <Button fx:id="mostrarBoton21" text=" " />
+        <Button fx:id="mostrarBoton22" text=" " />
+        <Button fx:id="mostrarBoton23" text=" " />
+        <Button fx:id="mostrarBoton24" text=" " />
+    </HBox>
+
+    <!-- Fila 6: PANEL -->
+    <HBox alignment="CENTER" spacing="5.0">
+        <Button fx:id="mostrarBoton25" text=" " />
+        <Button fx:id="mostrarBoton26" text=" " />
+        <Button fx:id="mostrarBoton27" text=" " />
+        <Button fx:id="mostrarBoton28" text=" " />
+        <Button fx:id="mostrarBoton29" text=" " />
+    </HBox>
+
+    <!-- Fila 1: TECLADO -->
+    <HBox alignment="CENTER" spacing="5.0">
+        <Button onAction="#buttonClick" text="Q" />
+        <Button onAction="#buttonClick" text="W" />
+        <Button onAction="#buttonClick" text="E" />
+        <Button onAction="#buttonClick" text="R" />
+        <Button onAction="#buttonClick" text="T" />
+        <Button onAction="#buttonClick" text="Y" />
+        <Button onAction="#buttonClick" text="U" />
+        <Button onAction="#buttonClick" text="I" />
+        <Button onAction="#buttonClick" text="O" />
+        <Button onAction="#buttonClick" text="P" />
+    </HBox>
+
+    <!-- Fila 2: TECLADO -->
+    <HBox alignment="CENTER" spacing="5.0">
+        <Button onAction="#buttonClick" text="A" />
+        <Button onAction="#buttonClick" text="S" />
+        <Button onAction="#buttonClick" text="D" />
+        <Button onAction="#buttonClick" text="F" />
+        <Button onAction="#buttonClick" text="G" />
+        <Button onAction="#buttonClick" text="H" />
+        <Button onAction="#buttonClick" text="J" />
+        <Button onAction="#buttonClick" text="K" />
+        <Button onAction="#buttonClick" text="L" />
+    </HBox>
+
+    <!-- Fila 3: TECLADO -->
+    <HBox alignment="CENTER" spacing="5.0">
+        <Button onAction="#buttonClick" text="ENTER" prefWidth="60"/>
+        <Button onAction="#buttonClick" text="Z" />
+        <Button onAction="#buttonClick" text="X" />
+        <Button onAction="#buttonClick" text="C" />
+        <Button onAction="#buttonClick" text="V" />
+        <Button onAction="#buttonClick" text="B" />
+        <Button onAction="#buttonClick" text="N" />
+        <Button onAction="#buttonClick" text="M" />
+        <Button onAction="#buttonClick" text="DELETE" prefWidth="60"/>
+    </HBox>
+
+</VBox>
