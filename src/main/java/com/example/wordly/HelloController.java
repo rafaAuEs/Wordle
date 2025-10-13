@@ -106,7 +106,6 @@ public class HelloController {
         if (result.isPresent() && result.get() == botonReiniciar) {
             reiniciarJuego();
         } else {
-            // Cierra la aplicación si el usuario pulsa "Salir" o cierra el diálogo
             System.exit(0);
         }
     }
@@ -116,8 +115,7 @@ public class HelloController {
         columnaActual = 0;
         for (Button boton : panelBotones) {
             boton.setText(" ");
-            // Si en el futuro añades estilos, también deberías reiniciarlos aquí
-            // boton.setStyle("");
+            // para añadir stylos mas adelante: boton.setStyle("");
         }
     }
 
