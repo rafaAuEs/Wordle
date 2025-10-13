@@ -115,7 +115,7 @@ public class HelloController {
         columnaActual = 0;
         for (Button boton : panelBotones) {
             boton.setText(" ");
-            // para añadir stylos mas adelante: boton.setStyle("");
+            // para añadir stylos mas adelante: boton.setStyle("-fx-background-color: orange;");
         }
     }
 
