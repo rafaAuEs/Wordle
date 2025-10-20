@@ -74,42 +74,42 @@
 
     <!-- Fila 1: TECLADO -->
     <HBox alignment="CENTER" spacing="5.0">
-        <Button onAction="#buttonClick" text="Q" />
-        <Button onAction="#buttonClick" text="W" />
-        <Button onAction="#buttonClick" text="E" />
-        <Button onAction="#buttonClick" text="R" />
-        <Button onAction="#buttonClick" text="T" />
-        <Button onAction="#buttonClick" text="Y" />
-        <Button onAction="#buttonClick" text="U" />
-        <Button onAction="#buttonClick" text="I" />
-        <Button onAction="#buttonClick" text="O" />
-        <Button onAction="#buttonClick" text="P" />
+        <Button fx:id="Q" onAction="#buttonClick" text="Q" />
+        <Button fx:id="W" onAction="#buttonClick" text="W" />
+        <Button fx:id="E" onAction="#buttonClick" text="E" />
+        <Button fx:id="R" onAction="#buttonClick" text="R" />
+        <Button fx:id="T" onAction="#buttonClick" text="T" />
+        <Button fx:id="Y" onAction="#buttonClick" text="Y" />
+        <Button fx:id="U" onAction="#buttonClick" text="U" />
+        <Button fx:id="I" onAction="#buttonClick" text="I" />
+        <Button fx:id="O" onAction="#buttonClick" text="O" />
+        <Button fx:id="P" onAction="#buttonClick" text="P" />
     </HBox>
 
     <!-- Fila 2: TECLADO -->
     <HBox alignment="CENTER" spacing="5.0">
-        <Button onAction="#buttonClick" text="A" />
-        <Button onAction="#buttonClick" text="S" />
-        <Button onAction="#buttonClick" text="D" />
-        <Button onAction="#buttonClick" text="F" />
-        <Button onAction="#buttonClick" text="G" />
-        <Button onAction="#buttonClick" text="H" />
-        <Button onAction="#buttonClick" text="J" />
-        <Button onAction="#buttonClick" text="K" />
-        <Button onAction="#buttonClick" text="L" />
+        <Button fx:id="A" onAction="#buttonClick" text="A" />
+        <Button fx:id="S" onAction="#buttonClick" text="S" />
+        <Button fx:id="D" onAction="#buttonClick" text="D" />
+        <Button fx:id="F" onAction="#buttonClick" text="F" />
+        <Button fx:id="G" onAction="#buttonClick" text="G" />
+        <Button fx:id="H" onAction="#buttonClick" text="H" />
+        <Button fx:id="J" onAction="#buttonClick" text="J" />
+        <Button fx:id="K" onAction="#buttonClick" text="K" />
+        <Button fx:id="L" onAction="#buttonClick" text="L" />
     </HBox>
 
     <!-- Fila 3: TECLADO -->
     <HBox alignment="CENTER" spacing="5.0">
-        <Button onAction="#buttonClick" text="ENTER" prefWidth="60"/>
-        <Button onAction="#buttonClick" text="Z" />
-        <Button onAction="#buttonClick" text="X" />
-        <Button onAction="#buttonClick" text="C" />
-        <Button onAction="#buttonClick" text="V" />
-        <Button onAction="#buttonClick" text="B" />
-        <Button onAction="#buttonClick" text="N" />
-        <Button onAction="#buttonClick" text="M" />
-        <Button onAction="#buttonClick" text="DELETE" prefWidth="60"/>
+        <Button fx:id="ENTER" onAction="#buttonClick" text="ENTER" prefWidth="60"/>
+        <Button fx:id="Z" onAction="#buttonClick" text="Z" />
+        <Button fx:id="X" onAction="#buttonClick" text="X" />
+        <Button fx:id="C" onAction="#buttonClick" text="C" />
+        <Button fx:id="V" onAction="#buttonClick" text="V" />
+        <Button fx:id="B" onAction="#buttonClick" text="B" />
+        <Button fx:id="N" onAction="#buttonClick" text="N" />
+        <Button fx:id="M" onAction="#buttonClick" text="M" />
+        <Button fx:id="DELETE" onAction="#buttonClick" text="DELETE" prefWidth="60"/>
     </HBox>
 
 </VBox>

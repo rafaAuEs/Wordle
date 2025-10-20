@@ -96,7 +96,7 @@ public class HelloController {
                 mostrarBoton17, mostrarBoton18, mostrarBoton19, mostrarBoton20, mostrarBoton21, mostrarBoton22,
                 mostrarBoton23, mostrarBoton24, mostrarBoton25, mostrarBoton26, mostrarBoton27, mostrarBoton28,
                 mostrarBoton29);
-        for (Button boton : panelBotones) {//cambiamos el tamaño de los botones del panel
+        for (Button boton : panelBotones) {//tamaño de los botones del panel
             boton.setMinWidth(25);
             boton.setMinHeight(25);
         }
