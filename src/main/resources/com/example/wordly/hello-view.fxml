@@ -7,13 +7,14 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.text.Text?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+<VBox style="-fx-background-color: lightblue" alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
       fx:controller="com.example.wordly.HelloController">
     <!-- Reglas: Juego -->
     <Text text="Hola, ¡Bienvenido a apalabrados"/>
     <Text text="Si la letra no está en la palabra secreta, cambiara de color a GRIS"/>
     <Text text="Si la palabra secreta contiene la letra pero no es su posición, cambiara de color a AMARILLO"/>
     <Text text="Si la palabra secreta contiene la letra y esta en la posición correcta, cambiara de color a VERDE"/>
+    <Text text="Si eres administrador de la aplicación, puedes ver cual es la palabra secreta en el Run de Intellij"/>
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
     </padding>

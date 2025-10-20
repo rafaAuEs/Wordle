@@ -90,12 +90,16 @@ public class HelloController {
 
     // metemos todos los botones del panel en una lista
     public void initialize() {
-        panelBotones = Arrays.asList(mostrarBoton00, mostrarBoton01, mostrarBoton02, mostrarBoton03, mostrarBoton04,
+        panelBotones = Arrays.asList(mostrarBoton00, mostrarBoton01, mostrarBoton02, mostrarBoton03, mostrarBoton04,//lista con la id de todos los botones del panel
                 mostrarBoton05, mostrarBoton06, mostrarBoton07, mostrarBoton08, mostrarBoton09, mostrarBoton10,
                 mostrarBoton11, mostrarBoton12, mostrarBoton13, mostrarBoton14, mostrarBoton15, mostrarBoton16,
                 mostrarBoton17, mostrarBoton18, mostrarBoton19, mostrarBoton20, mostrarBoton21, mostrarBoton22,
                 mostrarBoton23, mostrarBoton24, mostrarBoton25, mostrarBoton26, mostrarBoton27, mostrarBoton28,
                 mostrarBoton29);
+        for (Button boton : panelBotones) {//cambiamos el tamaño de los botones del panel
+            boton.setMinWidth(25);
+            boton.setMinHeight(25);
+        }
         seleccionarPalabraSecreta();//cojemos la palabra
     }
 
